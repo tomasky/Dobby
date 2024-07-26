@@ -22,11 +22,7 @@ jobs:
       
       # Langkah untuk memulihkan cache
     
-      # Langkah untuk menyimpan cache
-      - name: LS opt
-        run: |
-          ls ~/opt
-        continue-on-error: true
+   
         
       - name: Run script
         run: |
